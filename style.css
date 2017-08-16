@@ -51,13 +51,22 @@ img#profile {
     font-size: 2.5vmin;
 }
 
-.info {
+.categories {
+    position: fixed;
+    bottom: 25px;
+    letter-spacing: 6px; 
+    font-weight: bold;
+    font-size: 3vmin;
+    font-family: "Courier New", Courier;
+}
+
+.icons {
+    display: none;
     position: fixed;
     bottom: 10px;
     letter-spacing: 6px; 
     font-weight: bold;
     font-size: 3vmin;
-    font-family: "Courier New", Courier;
 }
 
 a:link {
@@ -79,9 +88,7 @@ a:active {
     color: #66a3ff;
 }
 
-.icons {
-    display: none;
-}
+
 
 
 .body-container {

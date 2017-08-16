@@ -3,6 +3,7 @@
 document.title = 'Christine Idouchi'
 
 
+
 function waitingCursor() {
     $(".projects-link").typed({
             strings: [''], 
