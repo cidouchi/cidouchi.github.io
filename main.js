@@ -2,6 +2,13 @@
 //tab title
 document.title = 'Christine Idouchi'
 
+//smooth srolling
+$('.projects-link').click(function() {
+    $('html, body').animate({
+          scrollTop: $('.projects').offset().top
+        }, 500)
+
+});
 
 
 function waitingCursor() {
@@ -52,6 +59,7 @@ function typeOther() {
 
 
 waitingCursor();
+
 
 
 

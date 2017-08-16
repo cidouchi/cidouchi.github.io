@@ -53,7 +53,7 @@ img#profile {
 
 .categories {
     position: fixed;
-    bottom: 25px;
+    bottom: 8vmin;
     letter-spacing: 6px; 
     font-weight: bold;
     font-size: 3vmin;
@@ -63,7 +63,7 @@ img#profile {
 .icons {
     display: none;
     position: fixed;
-    bottom: 10px;
+    bottom: 4vmin;
     letter-spacing: 6px; 
     font-weight: bold;
     font-size: 3vmin;
@@ -106,17 +106,17 @@ a:active {
     margin-top: 100%;
     position: relative;
     display: block;
- /*   background-color: yellow;*/
+    /*background-color: yellow;*/
 }
 
 
 img#ef-logo {
-    margin: 5% 0% 0% 38%;
+    margin: 3% 0% 0% 38%;
     width: 15vw;
 }
 
 img#re-logo {
-    margin: 20% 0% 0% 34%;
+    margin: 10% 0% 0% 34%;
     width: 20vw;
 }
 
